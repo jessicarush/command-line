@@ -47,7 +47,7 @@ less | page through a file
 less test.txt | displays the file in chunks (q to exit)
 ls | list current directory
 ls -al | lists everything in the current directory with details
-lsb_release -a | O\obtain information specific to your Linux distribution
+lsb_release -a | obtain information specific to your Linux distribution
 man | read a manual page
 man ls | commands manual (q to exit from the manual)
 mdfind | search for files or folders
