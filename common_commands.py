@@ -63,7 +63,7 @@ commands = {
 'info': 'reports information on a command (info python3, info dirs)',
 '--help': 'type this after a command to see the help (try git push -u --help)',
 'su - jessica': 'switch user to username',
-'lsb_release -a': 'O\obtain information specific to your Linux distribution'
+'lsb_release -a': 'obtain information specific to your Linux distribution'
 }
 
 
