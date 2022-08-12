@@ -14,7 +14,7 @@
 ## Common commands
 
 command | description
-------- | -----------
+:------ | :----------
 `--help` | type this after a command to see the help (try git push -u --help)
 `alias wa="whatis"` | create keyboard shortcuts for common commands. Run `alias` alone to list all aliases. Note these are not persistent...use `.bashrc` or `.bash_aliases` for that. Note that if you are using variables in your alias, single quotes will resolve the variable when the alias is invoked (e.g. `alias p='$PATH'`) whereas double quotes will resolve the value when the alias is defined and keep that value (e.g. `alias p="$PATH"`).
 `apropos` | find what man page is appropriate
@@ -136,7 +136,7 @@ command | description
 ## Special characters 
 
 character | description
---------- | -----------
+:-------- | :----------
 `>` | output result to a destination (e.g. `date > test.log`). Note this action will *replace* any existing content in the destination file if it exists or create a new file if it doesn't exist.
 `>>` | output result to a destination (e.g. `date >> test.log`). Note this will *append* the output to an existing file or create a new file if it doesn't exist.
 `\|` | takes the output of one command and passes as the input of another command (e.g. `ls -alh \| wc`)
