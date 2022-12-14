@@ -192,3 +192,9 @@ To see a list of all included shells:
 ```
 cat /etc/shells
 ```
+
+## Search for processes and then kill them
+
+```
+ps -ax | grep 'search term' | awk '{print $1}' | xargs kill -9
+```
