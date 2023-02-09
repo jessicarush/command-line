@@ -20,7 +20,7 @@ nano ~/.bash_aliases
 Add your alias like so:
 
 ```text
-alias sync-coding="rsync -r -a -v -e ssh --delete /Users/jessicarush/Documents/Coding jessica@rush-imac:/Users/jessica/Documents/
+alias sync-coding="rsync -r -a -v -e ssh --delete /Users/jessicarush/Documents/Coding jessica@rush-imac:/Users/jessica/Documents/"
 ```
 
 Reload the aliases in the command-line:
