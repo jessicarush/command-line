@@ -78,7 +78,7 @@ PS1="%F{cyan}%n%f@%F{blue}%m%f %F{yellow}%1~%f %# "
 
 ## Default directory for new terminal sessions
 
-Your `.bashrc` file is read when a new shell session starts up. Therefor, if you want to set a dfeault firectory: At the end of your `.bashrc`, you can simply `cd` to the directory you want to be the default.
+Your `.bashrc` file is read when a new shell session starts up. Therefor, if you want to set a default directory: At the end of your `.bashrc`, you can simply `cd` to the directory you want to be the default.
 
 ```bash
 # ...
