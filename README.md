@@ -8,6 +8,7 @@
 - [Special characters](#special-characters)
 - [Environment Variables](#environment-variables)
 - [Changing Shells](#changing-shells)
+- [Search for processes and then kill them](#search-for-processes-and-then-kill-them)
 
 <!-- tocstop -->
 
@@ -74,7 +75,7 @@ command | description
 `jobs`, `bg`, `fg` | list currently running or suspended jobs, (e.g. if you suspend a process like `top` using `control z`, you can see it is stopped using the `jobs` command). Run `fg <n>` to resume the job using the number seen in the output of `jobs`, this will run it it the foreground... use `bg 1` to run the process in teh background.
 `kill` | kill a process by ID (get ID with `ps` or `top`). Note the default signal is `-TERM` (software termination)
 `kill -l` | list the signal types (some of these are also described in `man kill`), these types can be passed as an option by number, e.g. `kill -15` or by name (without the `SIG` part) e.g. `kill -TERM`
-`kill -KILL <pid>` | force kill a process 
+`kill -KILL <pid>` | force kill a process (`kill -9 <pid>` also works). You may need to use `sudo`
 `killall` | kill a process by name (e.g. `killall -KILL node`)
 `less` | interactive page through a file... similar to cat but more user friendly as it lets you arrow line by line or spacebar to page down (q to exit).
 `ln` | by default creates a hard link (e.g. `ln original.txt hardlink.txt`)
@@ -197,4 +198,10 @@ cat /etc/shells
 
 ```
 ps -ax | grep 'search term' | awk '{print $1}' | xargs kill -9
+```
+
+You can also just run `ps` then when you find the process, note its PID and run:
+
+```
+sudo kill -9 <PID>
 ```
