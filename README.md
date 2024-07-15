@@ -205,3 +205,27 @@ You can also just run `ps` then when you find the process, note its PID and run:
 ```
 sudo kill -9 <PID>
 ```
+
+## Linux directories
+
+dir | description
+--- | -----------
+/bin | essential user binaries
+/boot | contains the linux kernel (boot files)
+/dev | device files (for external devices like hard drives)
+/etc | system config files
+/home | home folders (user files)
+/lib | essential kernel modules and shared libraries
+/lost+found | recovered files
+/media | removable media
+/mnt | temporary mount points
+/opt | option packages
+/proc | kernel and process files
+/root | root home directory
+/run | application state files
+/sbin | system binaries
+/srv | service (server-related) data
+/sys | virtual file system which allows modification of devices connected to the system
+/tmp | temporary files (typically cleared on reboot)
+/usr | user system resources (user binaries and read-only data)
+/var | variable data files (log files)
