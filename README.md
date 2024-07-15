@@ -109,6 +109,7 @@ command | description
 `rm -r` | remove a directory and its contents
 `rm -rf` | force remove a directory (hidden files may prevent rmdir from working)
 `rmdir` | remove an empty directory
+`sed 's/dark/light/' file.txt` | replace the word "dark" with "light" in a file
 `sort` | outputs sorted or merged lines of a text file
 `sort -n` | outputs sorted or merged lines of a text file numerically
 `sort -u` | outputs sorted and removes duplicates (unique values only)
