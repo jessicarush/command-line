@@ -6,9 +6,12 @@
 
 - [Common commands](#common-commands)
 - [Special characters](#special-characters)
+- [Keyboard shortcuts](#keyboard-shortcuts)
+- [Other shortcuts](#other-shortcuts)
 - [Environment Variables](#environment-variables)
 - [Changing Shells](#changing-shells)
 - [Search for processes and then kill them](#search-for-processes-and-then-kill-them)
+- [Linux directories](#linux-directories)
 
 <!-- tocstop -->
 
