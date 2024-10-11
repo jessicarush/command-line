@@ -147,6 +147,24 @@ character | description
 `{}` | will iterate through comma separated items (e.g. `echo test.{txt,js,css,html}` will output `test.txt test.js test.css test.html`)
 `&` | put an ampersand at the end of a command to run it in the background. You can then check that it's running using `jobs` or bring it to the foreground using `fg <n>`.
 
+## Keyboard shortcuts
+
+key combination | description
+--------------- | ----------
+`Up Arrow`, `Down Arrow` | Cycle through your history
+`Ctrl` + `U` | Delete to start of line 
+`Ctrl` + `K` | Delete to end of line
+`Ctrl` + `R` | Search history. Repeat `Ctrl` + `R` to loop through results
+`Ctrl` + `G` | Cancel the search and restore original line
+`Ctrl` + `W` | Delete previous word
+`Ctrl` + `L` | Clear screen
+`Ctrl` + `D` | Exit Shell
+
+## Other shortcuts 
+
+combination | description
+----------- | ----------
+`Option` + `Left Click` | Jump cursor to location (shell and vim - might depend on config)
 
 ## Environment Variables
 
